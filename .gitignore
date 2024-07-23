@@ -1,0 +1,5 @@
+# Ignore fresh build directory
+_fresh/
+.env
+cache
+cache/

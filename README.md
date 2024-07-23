@@ -1,4 +1,6 @@
-# Happy Friendship Day Greeting Generator
+# Happy Friendship Day
+
+Happy Friendship Day Greeting Generator in Tamil  
 
 [![Made with Fresh](https://fresh.deno.dev/fresh-badge-dark.svg)](https://fresh.deno.dev)
 
