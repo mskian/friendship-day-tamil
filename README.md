@@ -15,7 +15,7 @@ deno task start
 ```
 
 ```html
-http://localhost:8000/your-name
+http://localhost:5005/your-name
 ```
 
 ## LICENSE

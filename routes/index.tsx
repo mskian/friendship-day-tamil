@@ -22,11 +22,16 @@ export default function NewProject({ url }: PageProps<null>) {
         <meta property="og:url" content={url.href} />
         <meta
           property="og:image"
-          content="https://img.sanweb.info/friend/friend?name=Your-Name"
+          content="https://img.sanweb.info/ft/ft?name=Your-Name"
         />
         <meta property="og:image:alt" content="Happy Friendship Day" />
         <meta property="og:image:width" content="1080" />
         <meta property="og:image:height" content="1080" />
+        <meta name="twitter:title" content="நண்பர்கள் தின வாழ்த்துக்கள் - Friendship Day Greeting Generator" />
+        <meta name="twitter:description" content="Create Happy Friendship Day Greeting Wishes image with Name in Tamil." />
+        <meta name="twitter:url" content={url.href} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://img.sanweb.info/ft/ft?name=Your-Name" />
         <link rel="icon" type="image/png" sizes="196x196" href="/icons/favicon-196.png" />
         <link rel="shortcut icon" type="image/x-icon" href="/icons/favicon.ico" />
         <link rel="apple-touch-icon" href="/icons/apple-icon-180.png" />
