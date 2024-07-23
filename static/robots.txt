@@ -28,4 +28,4 @@ Disallow: /
 User-agent: HTTrack
 Disallow: /
 
-Sitemap: https://friend.deno.dev/sitemap.xml
+Sitemap: https://friend.kavithai.site/sitemap.xml
