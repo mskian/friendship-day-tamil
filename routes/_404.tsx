@@ -36,6 +36,8 @@ export function ServerCodePage(
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-title" content="Friendship Day" />
       </Head>
+      <br></br>
+      <br></br>
       <section class="w-full flex items-center justify-center">
         <div class="text-center">
           <h1 class="text-6xl md:text-9xl font-extrabold">

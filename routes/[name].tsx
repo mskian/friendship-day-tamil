@@ -55,11 +55,22 @@ export default function Page({ data, url }: PageProps<APIData[] | null>) {
         <meta property="og:image:alt" content={data[0].content} />
         <meta property="og:image:width" content="1080" />
         <meta property="og:image:height" content="1080" />
-        <meta name="twitter:title" content={`${data[0].content} - நண்பர்கள் தின வாழ்த்துக்கள்`} />
-        <meta name="twitter:description" content={`${data[0].content} - Sending you the Happy Friendship Day Greeting Wishes.`} />
+        <meta
+          name="twitter:title"
+          content={`${data[0].content} - நண்பர்கள் தின வாழ்த்துக்கள்`}
+        />
+        <meta
+          name="twitter:description"
+          content={`${
+            data[0].content
+          } - Sending you the Happy Friendship Day Greeting Wishes.`}
+        />
         <meta name="twitter:url" content={url.href} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content={"https://img.sanweb.info/ft/ft?name=" + data[0].slug} />
+        <meta
+          name="twitter:image"
+          content={"https://img.sanweb.info/ft/ft?name=" + data[0].slug}
+        />
         <link
           rel="icon"
           type="image/png"
@@ -92,7 +103,7 @@ export default function Page({ data, url }: PageProps<APIData[] | null>) {
           crossOrigin="anonymous"
         />
       </Head>
-      <main class="min-h-screen px-4 py-16 mx-auto sm:px-6 lg:px-8 bg-gray-200">
+      <main class="min-h-screen px-4 py-16 mx-auto sm:px-6 lg:px-8 bg-[#BDC581]">
         <div class="max-w-lg mx-auto">
           <AddProject data={data} />
         </div>

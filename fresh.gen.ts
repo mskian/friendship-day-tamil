@@ -4,6 +4,7 @@
 
 import * as $_name_ from "./routes/[name].tsx";
 import * as $_404 from "./routes/_404.tsx";
+import * as $blog_slug_ from "./routes/blog/[slug].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $User from "./islands/User.tsx";
 import * as $Wish from "./islands/Wish.tsx";
@@ -13,6 +14,7 @@ const manifest = {
   routes: {
     "./routes/[name].tsx": $_name_,
     "./routes/_404.tsx": $_404,
+    "./routes/blog/[slug].tsx": $blog_slug_,
     "./routes/index.tsx": $index,
   },
   islands: {
