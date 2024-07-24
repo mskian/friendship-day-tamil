@@ -214,11 +214,11 @@ export default function BlogPage({ url, data }: PageProps) {
           crossOrigin="anonymous"
         />
       </Head>
-      <div class="min-h-screen bg-[#BDC581] py-10 px-4">
+      <div class="min-h-screen bg-[#BDC581] flex items-center justify-center py-10 px-4">
         <div class="max-w-lg mx-auto bg-pink-200 p-6 rounded-lg shadow-lg">
-          <h1 class="text-lg font-bold mb-6 text-center">{title}</h1>
-          <p class="text-lg mb-6 text-center">{description}</p>
-          <div class="prose max-w-none bg-yellow-100 p-6 rounded-lg shadow-sm">
+          <h1 class="text-lg font-bold mb-4 text-center">{title}</h1>
+          <p class="text-base mb-6 text-center font-medium">{description}</p>
+          <div class="prose max-w-none bg-yellow-100 p-4 rounded-lg shadow-sm font-semibold text-base">
             <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
           </div>
           <div class="flex justify-between mt-6 items-center">
@@ -246,56 +246,23 @@ export default function BlogPage({ url, data }: PageProps) {
       </div>
       <style jsx>
         {`
-        .pagination-container {
-           display: flex;
-           justify-content: space-between;
-           align-items: center;
-           margin-top: 1.5rem;
-           flex-wrap: wrap; /* Allows items to wrap on smaller screens */
-           gap: 0.5rem; /* Adds spacing between items */
-        }
-      .pagination-btn {
-        display: inline-block;
-        padding: 10px 20px;
-        border-radius: 8px;
-        background-color: #4a90e2;
-        color: #fff;
-        text-decoration: none;
-        font-weight: bold;
-        text-align: center;
-        transition: background-color 0.3s;
-        flex: 1 1 auto; /* Allows the button to grow or shrink */
-        min-width: 100px; /* Ensures buttons have a minimum width */
-      }  
-
-     .pagination-btn:hover:not(.disabled) {
-       background-color: #357abd;
-      }
-    .pagination-btn.disabled {
-       background-color: #ccc;
-      pointer-events: none;
-    }
-   .pagination-info {
-      font-size: 1rem;
-      color: #333;
-      text-align: center;
-      flex: 1 1 auto; /* Allows the info to grow or shrink */
-      min-width: 100px; /* Ensures info has a minimum width */
-    }
-  /* Responsive adjustments */
-   @media (max-width: 600px) {
-    .pagination-container {
-      flex-direction: column;
-      align-items: stretch;
-    }
-    .pagination-btn {
-      margin: 0.5rem 0; /* Stacks buttons vertically with spacing */
-    }
-    .pagination-info {
-      margin: 0.5rem 0; /* Adds spacing around info when stacked */
-    }
-  }
-  `}
+          .pagination-btn {
+            padding: 8px 16px;
+            margin: 0 4px;
+            background-color: #4a90e2;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+          }
+          .pagination-btn.disabled {
+            background-color: #d3d3d3;
+            cursor: not-allowed;
+          }
+          .pagination-info {
+            font-size: 1rem;
+            font-weight: 600;
+          }
+        `}
       </style>
     </>
   );
