@@ -110,7 +110,7 @@ export const handler: Handlers = {
       const { title, description, content } = extractFrontMatter(markdown);
 
       // Define number of lines per page
-      const linesPerPage = 500; // Adjust as needed
+      const linesPerPage = 510; // Adjust as needed
       const pages = splitContent(content, linesPerPage);
 
       const totalPages = pages.length;
@@ -214,7 +214,7 @@ export default function BlogPage({ url, data }: PageProps) {
           crossOrigin="anonymous"
         />
       </Head>
-      <div class="min-h-screen bg-[#BDC581] flex items-center justify-center py-10 px-4">
+      <div class="min-h-screen px-4 py-24 mx-auto sm:px-6 lg:px-8 bg-[#BDC581]">
         <div class="max-w-lg mx-auto bg-pink-200 p-6 rounded-lg shadow-lg">
           <h1 class="text-lg font-bold mb-4 text-center">{title}</h1>
           <p class="text-base mb-6 text-center font-medium">{description}</p>
