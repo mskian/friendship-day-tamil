@@ -23,11 +23,12 @@ export default function AddProject({ data }: Props) {
   }, [data]);
 
   return (
-    <div class="min-h-screen flex flex-col justify-center items-center bg-[#e5ddd5] p-6 rounded-lg">
+    <div class="relative container mx-auto px-4 py-8 min-h-full bg-[#e5ddd8] flex flex-col items-center justify-center rounded-lg">
+      <div class="flex flex-col justify-center items-center flex-grow">
       {loading ? (
         <div class="flex justify-center items-center min-h-screen">
           <svg
-            class="animate-spin h-10 w-10 text-green-500"
+            class="animate-spin h-12 w-12 text-green-600"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -52,7 +53,7 @@ export default function AddProject({ data }: Props) {
           src={`https://img.sanweb.info/ft/ft?name=${data[0].slug}`}
           alt={data[0].content}
           loading="lazy"
-          class="mx-auto max-w-full h-auto rounded-xl shadow-lg border-2 border-gray-300"
+          class="mx-auto max-w-full h-auto rounded-xl shadow-lg"
         />
       )}
       <div class="flex justify-center items-center mt-6 space-x-4">
@@ -71,7 +72,9 @@ export default function AddProject({ data }: Props) {
           👉 Create
         </a>
       </div>
-      <div class="flex justify-center items-center mt-8">
+      </div>
+      <br></br>
+      <div class="mt-8 flex justify-center items-center">
         <a
           href="https://github.com/mskian/friendship-day-tamil"
           target="_blank"

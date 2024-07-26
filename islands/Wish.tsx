@@ -48,7 +48,7 @@ export default function AddProject() {
   };
 
   return (
-    <div class="relative container mx-auto px-4 py-8 min-h-screen bg-[#e5ddd8] flex flex-col items-center justify-center rounded-lg">
+    <div class="relative container mx-auto px-4 py-8 min-h-full bg-[#e5ddd8] flex flex-col items-center justify-center rounded-lg">
       <div class="flex flex-col justify-center items-center flex-grow">
         {loading.value
           ? (
@@ -118,6 +118,7 @@ export default function AddProject() {
           </button>
         </div>
       )}
+      <br></br>
       <div class="mt-8 flex justify-center items-center">
         <a
           href="https://github.com/mskian/friendship-day-tamil"

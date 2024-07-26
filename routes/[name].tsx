@@ -103,7 +103,7 @@ export default function Page({ data, url }: PageProps<APIData[] | null>) {
           crossOrigin="anonymous"
         />
       </Head>
-      <main class="min-h-screen px-4 py-16 mx-auto sm:px-6 lg:px-8 bg-[#BDC581]">
+      <main class="min-h-screen px-4 py-7 mx-auto sm:px-6 lg:px-8 bg-[#BDC581]">
         <div class="max-w-lg mx-auto">
           <AddProject data={data} />
         </div>
