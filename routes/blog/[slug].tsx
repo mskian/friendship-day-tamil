@@ -257,6 +257,7 @@ export default function BlogPage({ url, data }: PageProps) {
           .pagination-btn.disabled {
             background-color: #d3d3d3;
             cursor: not-allowed;
+            pointer-events: none;
           }
           .pagination-info {
             font-size: 1rem;
