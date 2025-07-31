@@ -35,9 +35,9 @@ export function ServerCodePage(
         <link rel="apple-touch-icon" href="/icons/apple-icon-180.png" />
         <meta name="theme-color" content="#FFFFFF" />
         <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="application-name" content="My App" />
+        <meta name="application-name" content="Friendship Day" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-title" content="My App" />
+        <meta name="apple-mobile-web-app-title" content="Friendship Day" />
         <link rel="stylesheet" href="/app.css" />
       </Head>
 

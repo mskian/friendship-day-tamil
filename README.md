@@ -24,6 +24,18 @@ http://localhost:5005/your-name
 http://localhost:5005/your-name
 ```
 
+Build the Project
+
+```sh
+deno task build
+```
+
+Production
+
+```sh
+deno task preview
+```
+
 ## Docs
 
 - For more about Deno Fresh Framework - <https://fresh.deno.dev/docs/introduction>
