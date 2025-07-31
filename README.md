@@ -24,13 +24,6 @@ http://localhost:5005/your-name
 http://localhost:5005/your-name
 ```
 
-- Kavithai Content in `/content/kavithai.md`
-
-```sh
-## Blog Page
-http://localhost:5005/blog/kavithai
-```
-
 ## Docs
 
 - For more about Deno Fresh Framework - <https://fresh.deno.dev/docs/introduction>
@@ -38,8 +31,7 @@ http://localhost:5005/blog/kavithai
 ## Credits
 
 - Image Edited from `Canva.com`
-- Base Concept (HTML Canvas) - <https://github.com/mskian/friendship-day-wishes>
-- Friendship Quotes in Tamil (Kavithai Collections) Credits to Respective Authors and Site Owners
+- Base Concept (HTML Canvas) - <https://github.com/mskian/friendship-day-wishes>  
 
 ## LICENSE
 

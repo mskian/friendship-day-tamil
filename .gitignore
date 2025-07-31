@@ -3,3 +3,4 @@ _fresh/
 .env
 cache
 cache/
+node_modules
